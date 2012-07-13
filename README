@@ -7,3 +7,5 @@ bit of help.  That's where the suggest.cgi script comes in.
 
 It makes assumptions, of course: it assumes you are looking at OpenNMS graphs.
 It assumes you have permission to modify the RRD files.
+
+Yep.
