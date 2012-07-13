@@ -1,0 +1,9 @@
+README for suggest-killspike2
+
+The killspike2 script (when slightly fixed) is an effective way to remove
+large datapoints from an RRD file.  But in order to remove just the single
+largest datapoint, and to find the right file to modify, we can use a little
+bit of help.  That's where the suggest.cgi script comes in.
+
+It makes assumptions, of course: it assumes you are looking at OpenNMS graphs.
+It assumes you have permission to modify the RRD files.
